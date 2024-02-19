@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -95,8 +96,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 16,
+        "padding_bottom": 0
       }
     },
     "related-products": {

@@ -67,7 +67,7 @@
         "custom_liquid_Lrpm9x": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign description = product.description | replace: '<h3', '<\/div><div class=\"tab-content\"><h3' %}\n<div class=\"prod_description\">\n<div class=\"spacer\">\n{{ description }}\n<\/div>\n<\/div>\n\n<link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jqueryui\/1.12.1\/jquery-ui.min.css\" \/>\n<script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jqueryui\/1.12.1\/jquery-ui.min.js\"><\/script>\n\n<script>\n  jQuery(document).ready(function(){\n  \tvar tabTitle = '<ul>';\n  jQuery('.prod_description > div.tab-content').each(function(i, item){\n      jQuery(this).attr('id', \"tabs-\" + i);\n      var titletext = jQuery(this).find('h3').text();\n      var titlelist = '<li><a href=\"#tabs-' + i + '\">' + titletext + '<\/a><\/li>'\n      tabTitle += titlelist ;\n  });\n  tabTitle += '<\/ul>';\n  jQuery( tabTitle ).insertAfter('.spacer');\n    jQuery('.spacer').remove();\n  jQuery( \".prod_description\" ).tabs();\n  })\n<\/script>"
+            "custom_liquid": ""
           }
         }
       },

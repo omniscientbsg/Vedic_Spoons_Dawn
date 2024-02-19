@@ -154,6 +154,15 @@
             >
               {{ card_product.title | escape }}
             </a>
+            {% if card_product.tags contains 'Gluten Free' %}
+            <img src="https://cdn.shopify.com/s/files/1/0258/3173/files/gluten-free.png?v=1708359735" alt="Gluten Free">
+        {% endif %}
+        {% if card_product.tags contains 'Vegan' %}
+            <img src="https://cdn.shopify.com/s/files/1/0258/3173/files/vegan.png?v=1708359735" alt="Vegan">
+        {% endif %}
+        {% if card_product.tags contains 'Sugar Free' %}
+            <img src="https://cdn.shopify.com/s/files/1/0258/3173/files/vegan.png?v=1708359735" alt="Sugar Free">
+        {% endif %}
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}

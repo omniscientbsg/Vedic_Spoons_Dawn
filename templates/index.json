@@ -226,7 +226,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/text_with_image_nutriprash_banner_1000x10000.png",
-        "height": "large",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",

@@ -72,7 +72,7 @@ const selectVariantByClickingImage = {
     });
     return variantImageObject;
   },
-  _updateVariant: function (event, id, product, variantImages) {
+    _updateVariant: function (event, id, product, variantImages) {
     const arrImage = event.src
       .split('?')[0]
       .replace(/http(s)?:/, '')
@@ -82,18 +82,34 @@ const selectVariantByClickingImage = {
     const strNewImage = `${arrImage.join('.')}.${strRemaining}.${strExtention}`;
     
     if (typeof variantImages[strNewImage] !== 'undefined') {
-      product.variants.forEach((option, index) => {
-        const optionValue = variantImages[strNewImage][`option-${index}`];
-        if (optionValue !== null && optionValue !== undefined) {
-          const selects = document.querySelectorAll('#'+ id + ' [class*=select__select]');
-          const options = selects[index].options;
-          for (let option, n = 0; (option = options[n]); n += 1) {
-            if (option.value === optionValue) {
-              selects[index].selectedIndex = n;
-              selects[index].dispatchEvent(new Event('change'));
-              break;
-            }
+      product.variants.forEach((variant) => {
+        const variantId = variant.id;
+        const variantOptions = variantImages[strNewImage];
+        let isMatch = true;
+
+        for (let i = 0; i < variant.options.length; i++) {
+          if (variant.options[i] !== variantOptions[`option-${i}`]) {
+            isMatch = false;
+            break;
           }
+        }
+
+        if (isMatch) {
+          // Update the variant ID in the form
+          const variantInput = document.querySelector('#' + id + ' input[name="id"]');
+          if (variantInput) {
+            variantInput.value = variantId;
+            variantInput.dispatchEvent(new Event('change', { bubbles: true }));
+          }
+
+          // Additional: trigger change event on the select elements
+          const selects = document.querySelectorAll('#'+ id + ' .select__select');
+          selects.forEach((select, index) => {
+            select.selectedIndex = [...select.options].findIndex(
+              option => option.value === variantOptions[`option-${index}`]
+            );
+            select.dispatchEvent(new Event('change', { bubbles: true })); // Trigger change event
+          });
         }
       });
     }

@@ -54,9 +54,13 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
+        "collapsible_tab_U3HVAH": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "Discription",
+            "icon": "none",
+            "content": "<p>Nutriprash is an Ayurvedic blend of Chyawanprash, Drakshavaleha & Bhrama Rasayana, which are the greatest boons of Ayurveda to Mankind. Nutriprash has all fruits, spices & herbs combined in precise proportion to a synergistic effect. This whole is more powerful than the sum of its parts. Its pleasant natural aromatic aroma & taste makes it palatable for all age groups ~ from Children to Elderly people. The Draksh(Raisins) add a cooling effect, thus making it suitable to be had even during the summer months. It is freshly prepared & delivered without the use of any preservatives. It contains the goodness of Amla, Almonds, Raisins, Saffron, Honey and a lot of other healthy natural ingredients which make it delicious.<\/p><p>Mothers will no longer have to force any prash on kids, We Promise! <\/p>",
+            "page": ""
           }
         },
         "collapsible_tab_GG3ENC": {
@@ -86,25 +90,16 @@
             "page": ""
           }
         },
-        "collapsible_tab_U3HVAH": {
-          "type": "collapsible_tab",
+        "custom_liquid_Lrpm9x": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Size Chart",
-            "icon": "none",
-            "content": "",
-            "page": ""
+            "custom_liquid": "<table>\n<tbody>\n<tr>\n<td>Nutriprash<\/td>\n<td rowspan=\"3\">Nett Wt&nbsp;<\/td>\n<td rowspan=\"3\">&nbsp;1 Jar<\/td>\n<td colspan=\"2\">Subscription Prepaid by Cash\/Cheque<\/td>\n<\/tr>\n<tr>\n<td rowspan=\"2\"><strong>Sweetened with Sugar<\/strong>&nbsp;&nbsp;<\/td>\n<td colspan=\"2\">6 Jars 10% Disc<\/td>\n<\/tr>\n<tr>\n<td>Pay<\/td>\n<td>Per Jar<\/td>\n<\/tr>\n<tr>\n<td rowspan=\"2\">Original (Honey)\/&nbsp;&nbsp; Pure Jain (No Honey)<\/td>\n<td>800 gms<\/td>\n<td>890<\/td>\n<td>4806<\/td>\n<td>801<\/td>\n<\/tr>\n<tr>\n<td>400 gms<\/td>\n<td>500<\/td>\n<td>2700<\/td>\n<td>450<\/td>\n<\/tr>\n<tr>\n<td rowspan=\"2\">with Active Manuka Honey (MGO550+)<\/td>\n<td rowspan=\"2\">800gms<\/td>\n<td rowspan=\"2\">1250<\/td>\n<td rowspan=\"2\">6750<\/td>\n<td rowspan=\"2\">1125<\/td>\n<\/tr>\n<tr><\/tr>\n<tr>\n<td colspan=\"5\"><strong>Sugar-Free: Sweetened with Dates, Prunes, Rasins, Honey. (Refrigerate Always) No Sugar No Artificial Sugars No Preservatives<\/strong><\/td>\n<\/tr>\n<tr>\n<td>Sugar-Free<\/td>\n<td>390 gms<\/td>\n<td>720<\/td>\n<td>3888<\/td>\n<td>648<\/td>\n<\/tr>\n<tr>\n<td>Sugar-Free with Manuka Honey<\/td>\n<td>390 gms<\/td>\n<td>960<\/td>\n<td>5184<\/td>\n<td>864<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<br>"
           }
         },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "custom_liquid_Lrpm9x": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
           }
         }
       },
@@ -116,13 +111,12 @@
         "quantity_selector",
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
-        "description",
+        "collapsible_tab_U3HVAH",
         "collapsible_tab_GG3ENC",
         "collapsible_tab_LRpA7D",
         "collapsible_tab_WfWRbG",
-        "collapsible_tab_U3HVAH",
-        "share",
-        "custom_liquid_Lrpm9x"
+        "custom_liquid_Lrpm9x",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,

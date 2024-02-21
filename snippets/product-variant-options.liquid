@@ -111,6 +111,7 @@
       {% endif %}
     >
       {% if option_disabled -%}
+        label.style.display = (input.disabled) ? "none" : "";
         {{- 'products.product.value_unavailable' | t: option_value: value -}}
       {%- else -%}
         {{- value -}}

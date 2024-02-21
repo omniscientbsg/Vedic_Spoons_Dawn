@@ -30,12 +30,13 @@ function rebuildOptions() {
         input.disabled = (validCombo(input.value,optionLevel)) ? false : true;
         if(pickerType == 'radios'){
             //get the label for the current input (this is what the user clicks, the "pill")
-            const label = fieldsets[optionLevel].querySelector(`label[for="${input.id}"]`);
+            const label = fieldsets[optionLevel].querySelector(label[for="${input.id}"]);
 
-            label.style.display = (input.disabled) ? "none" : ""; //Hide the option, or comment this line out and use the following lines to style it..
-            //label.style.opacity = (input.disabled) ? 0.5 : 1;
-            //label.style.borderStyle = (input.disabled) ? "dashed" : "solid";
-            //label.style.textDecoration = (input.disabled) ? "none" : "";
+            if (input.disabled) {
+                label.classList.add('disabled'); // Add a class to visually indicate disabled options
+            } else {
+                label.classList.remove('disabled');
+            }
         } else {
             input.hidden = (validCombo(input.value,optionLevel)) ? false : true;
         }

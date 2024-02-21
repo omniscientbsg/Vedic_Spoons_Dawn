@@ -86,6 +86,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_U3yMCg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless product == empty %}\n  <script type=\"application\/json\" id=\"ProductJson-{{ section.id }}\">\n    {{ product | json }}\n  <\/script>\n{% endunless %}\n​"
+          }
         }
       },
       "block_order": [
@@ -99,7 +105,8 @@
         "collapsible_tab_U3HVAH",
         "collapsible_tab_LRpA7D",
         "collapsible_tab_WfWRbG",
-        "share"
+        "share",
+        "custom_liquid_U3yMCg"
       ],
       "settings": {
         "enable_sticky_info": true,

@@ -64,6 +64,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_i9pQ6f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<script>\n$(document).ready(function() {\n  thumbnails = $('img[src*=\"\/products\/\"]').not(':first');\n  if (thumbnails.length) {\n    thumbnails.bind('click', function() {\n      var arrImage = $(this).attr('src').split('?')[0].split('.');\n      var strExtention = arrImage.pop();\n      var strRemaining = arrImage.pop().replace(\/_[a-zA-Z0-9@]+$\/,'');\n      var strNewImage = arrImage.join('.')+\".\"+strRemaining+\".\"+strExtention;\n      if (typeof variantImages[strNewImage] !== 'undefined') {\n          productOptions.forEach(function (value, i) {\n           optionValue = variantImages[strNewImage]['option-'+i];\n           if (optionValue !== null && $('.single-option-selector:eq('+i+') option').filter(function() { return $(this).text() === optionValue }).length) {\n             $('.single-option-selector:eq('+i+')').val(optionValue).trigger('change');\n           }\n        });\n      }\n    });\n  }\n});\n<\/script>"
+          }
         }
       },
       "block_order": [
@@ -75,7 +81,8 @@
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "custom_liquid_i9pQ6f"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -91,15 +98,6 @@
         "enable_video_looping": false,
         "padding_top": 16,
         "padding_bottom": 0
-      }
-    },
-    "custom_liquid_biUmVi": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script>\n$(document).ready(function() {\n  thumbnails = $('img[src*=\"\/products\/\"]').not(':first');\n  if (thumbnails.length) {\n    thumbnails.bind('click', function() {\n      var arrImage = $(this).attr('src').split('?')[0].split('.');\n      var strExtention = arrImage.pop();\n      var strRemaining = arrImage.pop().replace(\/_[a-zA-Z0-9@]+$\/,'');\n      var strNewImage = arrImage.join('.')+\".\"+strRemaining+\".\"+strExtention;\n      if (typeof variantImages[strNewImage] !== 'undefined') {\n          productOptions.forEach(function (value, i) {\n           optionValue = variantImages[strNewImage]['option-'+i];\n           if (optionValue !== null && $('.single-option-selector:eq('+i+') option').filter(function() { return $(this).text() === optionValue }).length) {\n             $('.single-option-selector:eq('+i+')').val(optionValue).trigger('change');\n           }\n        });\n      }\n    });\n  }\n});\n<\/script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "related-products": {
@@ -123,7 +121,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_biUmVi",
     "related-products"
   ]
 }

@@ -21,7 +21,7 @@ function rebuildOptions() {
     selectedOptions = fieldsets.map((fieldset) => {
         return (pickerType == 'radios') ? Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value : Array.from(fieldset.querySelectorAll('select'), (select) => select.value);
     });
-    
+
     //loop through the option sets starting from the 2nd set and disable any invalid options
     for(let optionLevel = 1, n = fieldsets.length; optionLevel < n; optionLevel++) {
         const inputs = (pickerType == 'radios') ? fieldsets[optionLevel].querySelectorAll('input') : fieldsets[optionLevel].querySelectorAll('option');
@@ -30,7 +30,7 @@ function rebuildOptions() {
         input.disabled = (validCombo(input.value,optionLevel)) ? false : true;
         if(pickerType == 'radios'){
             //get the label for the current input (this is what the user clicks, the "pill")
-            const label = fieldsets[optionLevel].querySelector(label[for="${input.id}"]);
+            const label = fieldsets[optionLevel].querySelector(`label[for="${input.id}"]`);
 
             label.style.display = (input.disabled) ? "none" : ""; //Hide the option, or comment this line out and use the following lines to style it..
             //label.style.opacity = (input.disabled) ? 0.5 : 1;

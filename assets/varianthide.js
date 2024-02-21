@@ -37,7 +37,7 @@ function rebuildOptions() {
             //label.style.borderStyle = (input.disabled) ? "dashed" : "solid";
             //label.style.textDecoration = (input.disabled) ? "none" : "";
         } else {
-            input.hidden = (validCombo(input.value,optionLevel)) ? false : true;
+            input.hidden = (validCombo(input.value,optionLevel)) ? true;
         }
         });
     }

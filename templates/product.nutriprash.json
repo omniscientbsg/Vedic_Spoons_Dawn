@@ -63,15 +63,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_GG3ENC": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Discount",
-            "icon": "none",
-            "content": "<p>To help form a healthy habit, we offer a 10% discount if you add six quantity & use code Subscribe after checkout. A fresh jar delivered every 30 days or as per your request. Saves you time & money, as you pay only once. You can cancel any time, and we refund the balance money.<\/p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_LRpA7D": {
           "type": "collapsible_tab",
           "settings": {
@@ -112,7 +103,6 @@
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
         "collapsible_tab_U3HVAH",
-        "collapsible_tab_GG3ENC",
         "collapsible_tab_LRpA7D",
         "collapsible_tab_WfWRbG",
         "custom_liquid_Lrpm9x",

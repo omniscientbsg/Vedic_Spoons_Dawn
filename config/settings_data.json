@@ -141,18 +141,6 @@
         "settings": {
         }
       },
-      "16727571341325073105": {
-        "type": "shopify:\/\/apps\/multibuy-sales-booster\/blocks\/multibuymain\/8167681e-640c-4c9b-9674-73e49fbd6326",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "12601257459161342390": {
-        "type": "shopify:\/\/apps\/giftship\/blocks\/giftship\/26bd5756-d344-471d-baf8-ba6267b82da9",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "15549253043730922942": {
         "type": "shopify:\/\/apps\/local-delivery-pickup-se\/blocks\/cart-embed\/2eb39888-20d1-47c4-960f-ad05f2e225b3",
         "disabled": true,
@@ -192,6 +180,12 @@
           "border_radius": 0,
           "supporting_text_title": "Purchase options",
           "subscription_policy_url": ""
+        }
+      },
+      "16727571341325073105": {
+        "type": "shopify:\/\/apps\/multibuy-sales-booster\/blocks\/multibuymain\/8167681e-640c-4c9b-9674-73e49fbd6326",
+        "disabled": false,
+        "settings": {
         }
       }
     },

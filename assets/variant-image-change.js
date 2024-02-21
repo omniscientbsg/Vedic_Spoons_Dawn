@@ -77,11 +77,3 @@ const selectVariantByClickingImage = {
     }
   },
 };
-if (document.readyState !== 'loading') {
-  selectVariantByClickingImage._selectVariant();
-} else {
-  document.addEventListener(
-    'DOMContentLoaded',
-    selectVariantByClickingImage._selectVariant(),
-  );
-}

@@ -81,12 +81,6 @@
             "page": ""
           }
         },
-        "custom_liquid_Lrpm9x": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<script>\nconst selectVariantByClickingImage = {\n  \/\/ Create variant images from productJson object\n  _createVariantImage: function (product) {\n    const variantImageObject = {};\n    product.variants.forEach((variant) => {\n      if (\n        typeof variant.featured_image !== 'undefined' &&\n        variant.featured_image !== null\n      ) {\n        const variantImage = variant.featured_image.src\n          .split('?')[0]\n          .replace(\/http(s)?:\/, '');\n        variantImageObject[variantImage] =\n          variantImageObject[variantImage] || {};\n        product.options.forEach((option, index) => {\n          const optionValue = variant.options[index];\n          const optionKey = `option-${index}`;\n          if (\n            typeof variantImageObject[variantImage][optionKey] === 'undefined'\n          ) {\n            variantImageObject[variantImage][optionKey] = optionValue;\n          } else {\n            const oldValue = variantImageObject[variantImage][optionKey];\n            if (oldValue !== null && oldValue !== optionValue) {\n              variantImageObject[variantImage][optionKey] = null;\n            }\n          }\n        });\n      }\n    });\n    return variantImageObject;\n  },\n  _updateVariant: function (event, id, product, variantImages) {\n    const arrImage = event.target.src\n      .split('?')[0]\n      .replace(\/http(s)?:\/, '')\n      .split('.');\n    const strExtention = arrImage.pop();\n    const strRemaining = arrImage.pop().replace(\/_[a-zA-Z0-9@]+$\/, '');\n    const strNewImage = `${arrImage.join('.')}.${strRemaining}.${strExtention}`;\n    if (typeof variantImages[strNewImage] !== 'undefined') {\n      product.variants.forEach((option, index) => {\n        const optionValue = variantImages[strNewImage][`option-${index}`];\n        if (optionValue !== null && optionValue !== undefined) {\n          const selects = document.querySelectorAll('#'+ id + ' [class*=single-option-selector]');\n          const options = selects[index].options;\n          for (let option, n = 0; (option = options[n]); n += 1) {\n            if (option.value === optionValue) {\n              selects[index].selectedIndex = n;\n              selects[index].dispatchEvent(new Event('change'));\n              break;\n            }\n          }\n        }\n      });\n    }\n  },\n  _selectVariant: function() {\n    const productJson = document.querySelectorAll('[id^=ProductJson-');\n    if (productJson.length > 0) {\n      productJson.forEach((product) => {\n        const sectionId = product.id.replace(\"ProductJson-\", \"shopify-section-\");\n        const thumbnails = document.querySelectorAll('#'+ sectionId + ' img[src*=\"\/files\/\"]');\n        if (thumbnails.length > 1) {\n          const productObject = JSON.parse(product.innerHTML);\n          const variantImages = this._createVariantImage(productObject);\n          \/\/ need to check variants > 1\n          if (productObject.variants.length > 1) {\n            thumbnails.forEach((thumbnail) => {\n              thumbnail.addEventListener('click', (e) =>\n                this._updateVariant(e, sectionId, productObject, variantImages),\n              );\n            });\n          }\n        }\n      });\n    }\n  },\n};\nif (document.readyState !== 'loading') {\n  selectVariantByClickingImage._selectVariant();\n} else {\n  document.addEventListener(\n    'DOMContentLoaded',\n    selectVariantByClickingImage._selectVariant(),\n  );\n}\n<\/script>"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -105,7 +99,6 @@
         "collapsible_tab_U3HVAH",
         "collapsible_tab_LRpA7D",
         "collapsible_tab_WfWRbG",
-        "custom_liquid_Lrpm9x",
         "share"
       ],
       "settings": {

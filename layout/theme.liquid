@@ -345,16 +345,8 @@
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
         countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
       };
-    </script>
 
-    {%- if settings.predictive_search_enabled -%}
-      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
-  </body>
-</html>
-
-
-const selectVariantByClickingImage = {
+        const selectVariantByClickingImage = {
   // Create variant images from productJson object
   _createVariantImage: function (product) {
     const variantImageObject = {};
@@ -441,3 +433,14 @@ if (document.readyState !== 'loading') {
     selectVariantByClickingImage._selectVariant(),
   );
 }
+      
+    </script>
+
+    {%- if settings.predictive_search_enabled -%}
+      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+  </body>
+</html>
+
+
+

@@ -59,6 +59,42 @@
           "settings": {
           }
         },
+        "collapsible_tab_GG3ENC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Discount",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LRpA7D": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_WfWRbG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Storage",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_U3HVAH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size Chart",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -81,6 +117,10 @@
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
         "description",
+        "collapsible_tab_GG3ENC",
+        "collapsible_tab_LRpA7D",
+        "collapsible_tab_WfWRbG",
+        "collapsible_tab_U3HVAH",
         "share",
         "custom_liquid_Lrpm9x"
       ],

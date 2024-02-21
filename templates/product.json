@@ -64,6 +64,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_NYf3UY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless product == empty %}\n  <script type=\"application\/json\" id=\"ProductJson-{{ section.id }}\">\n    {{ product | json }}\n  <\/script>\n{% endunless %}\n​"
+          }
         }
       },
       "block_order": [
@@ -75,7 +81,8 @@
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "custom_liquid_NYf3UY"
       ],
       "settings": {
         "enable_sticky_info": true,

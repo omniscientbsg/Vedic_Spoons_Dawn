@@ -181,12 +181,6 @@
           "supporting_text_title": "Purchase options",
           "subscription_policy_url": ""
         }
-      },
-      "16727571341325073105": {
-        "type": "shopify:\/\/apps\/multibuy-sales-booster\/blocks\/multibuymain\/8167681e-640c-4c9b-9674-73e49fbd6326",
-        "disabled": true,
-        "settings": {
-        }
       }
     },
     "color_schemes": {

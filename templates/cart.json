@@ -20,22 +20,8 @@
           "type": "buttons",
           "settings": {
           }
-        }
-      },
-      "block_order": [
-        "subtotal",
-        "buttons"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 40
-      }
-    },
-    "1708867309e4a65e0d": {
-      "type": "apps",
-      "blocks": {
-        "local_delivery_pickup_se_cart_block_h99rCD": {
+        },
+        "local_delivery_pickup_se_cart_block_Myf7pn": {
           "type": "shopify:\/\/apps\/local-delivery-pickup-se\/blocks\/cart-block\/2eb39888-20d1-47c4-960f-ad05f2e225b3",
           "settings": {
             "lmd_base_color": "#868686",
@@ -63,8 +49,18 @@
         }
       },
       "block_order": [
-        "local_delivery_pickup_se_cart_block_h99rCD"
+        "subtotal",
+        "buttons",
+        "local_delivery_pickup_se_cart_block_Myf7pn"
       ],
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "1708867309e4a65e0d": {
+      "type": "apps",
       "settings": {
         "include_margins": true
       }

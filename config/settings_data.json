@@ -141,9 +141,23 @@
         "settings": {
         }
       },
+      "1768834845299682660": {
+        "type": "shopify:\/\/apps\/subscriptions\/blocks\/app-embed-block\/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+        "disabled": false,
+        "settings": {
+          "color_text_title": "#6D7175",
+          "color_text_body": "#6D7175",
+          "dividers_color": "#8F8D8D",
+          "bacgkround_color": "#FFFFFF",
+          "border_thickness": 1,
+          "border_radius": 0,
+          "supporting_text_title": "Purchase options",
+          "subscription_policy_url": ""
+        }
+      },
       "15549253043730922942": {
         "type": "shopify:\/\/apps\/local-delivery-pickup-se\/blocks\/cart-embed\/2eb39888-20d1-47c4-960f-ad05f2e225b3",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "lmd_base_color": "#868686",
           "lmd_slot_text_color": "#000000",
@@ -168,29 +182,9 @@
           "sclmd_location_pop_up": false
         }
       },
-      "1768834845299682660": {
-        "type": "shopify:\/\/apps\/subscriptions\/blocks\/app-embed-block\/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
-        "disabled": false,
-        "settings": {
-          "color_text_title": "#6D7175",
-          "color_text_body": "#6D7175",
-          "dividers_color": "#8F8D8D",
-          "bacgkround_color": "#FFFFFF",
-          "border_thickness": 1,
-          "border_radius": 0,
-          "supporting_text_title": "Purchase options",
-          "subscription_policy_url": ""
-        }
-      },
-      "6372134702089524610": {
-        "type": "shopify:\/\/apps\/pickeasy\/blocks\/zipcode-checker\/7e06b047-cfd1-4df7-add1-81e9a842022c",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "10111608272286102450": {
         "type": "shopify:\/\/apps\/pickeasy\/blocks\/app-embed\/7e06b047-cfd1-4df7-add1-81e9a842022c",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "enable_network_listeners": false,
           "xhrRequestExactMatch": "",
@@ -204,6 +198,12 @@
           "buttonClickClassName": "",
           "buttonClickTimeout": 500,
           "additionalJavascriptAndCss": ""
+        }
+      },
+      "6372134702089524610": {
+        "type": "shopify:\/\/apps\/pickeasy\/blocks\/zipcode-checker\/7e06b047-cfd1-4df7-add1-81e9a842022c",
+        "disabled": true,
+        "settings": {
         }
       }
     },

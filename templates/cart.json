@@ -1,1 +1,78 @@
-{"sections":{"cart-items":{"type":"main-cart-items","settings":{"padding_top":36,"padding_bottom":36}},"cart-footer":{"type":"main-cart-footer","blocks":{"subtotal":{"type":"subtotal","settings":{}},"buttons":{"type":"buttons","settings":{}}},"block_order":["subtotal","buttons"],"settings":{"padding_top":20,"padding_bottom":40}}},"order":["cart-items","cart-footer"]}
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "1708867309e4a65e0d": {
+      "type": "apps",
+      "blocks": {
+        "local_delivery_pickup_se_cart_block_h99rCD": {
+          "type": "shopify:\/\/apps\/local-delivery-pickup-se\/blocks\/cart-block\/2eb39888-20d1-47c4-960f-ad05f2e225b3",
+          "settings": {
+            "lmd_base_color": "#868686",
+            "lmd_slot_text_color": "#000000",
+            "lmd_slot_icon_color": "transparent",
+            "lmd_btn_color": "#000000",
+            "lmd_text_color": "#ffffff",
+            "lmd_calender_color": "#ffffff",
+            "lmd_calender_text_color": "#000000",
+            "lmd_calender_select_color": "#000000",
+            "lmd_calender_text_select_color": "#ffffff",
+            "sclmd_drop_shadow": false,
+            "lmd_calender_drop_shadow_color": "#999999",
+            "lmd_enable_local": true,
+            "local_delivery_method": "Local Delivery",
+            "lmd_enable_pickup": true,
+            "store_pickup_method": "Store Pickup",
+            "lmd_enable_shipping": true,
+            "standard_shipping_method": "Standard Shippping",
+            "sclmd_express_checkout": false,
+            "sclmd_target_id": "",
+            "sclmd_fill_pickup_address": true,
+            "sclmd_location_pop_up": false
+          }
+        }
+      },
+      "block_order": [
+        "local_delivery_pickup_se_cart_block_h99rCD"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "1708867309e4a65e0d"
+  ]
+}

@@ -39,7 +39,7 @@
             "local_delivery_method": "Local Delivery",
             "lmd_enable_pickup": false,
             "store_pickup_method": "Store Pickup",
-            "lmd_enable_shipping": true,
+            "lmd_enable_shipping": false,
             "standard_shipping_method": "Standard Shippping",
             "sclmd_express_checkout": false,
             "sclmd_target_id": "",

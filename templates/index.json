@@ -23,6 +23,7 @@
         },
         "slide_Qb994m": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "Image slide",
             "heading_size": "h1",

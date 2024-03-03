@@ -5,6 +5,7 @@
       "blocks": {
         "template--15745398833291__d959a4f7-55a9-43a6-ad47-60c68b461c26-slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/2.png",
             "heading": "You Are What You Eat!",
@@ -39,11 +40,66 @@
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_fbwGHF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-03_at_3.33.13_PM.png",
+            "heading": "Wholesome Elegance",
+            "heading_size": "h0",
+            "subheading": "Savor the essence of tradition in every bite of our Indian mithai, where wholesome ingredients intertwine with elegant flavors, creating a symphony of wholesome elegance for your palate.",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide_wxbttP": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_LfTYnQ": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--15745398833291__d959a4f7-55a9-43a6-ad47-60c68b461c26-slide-1",
-        "slide_Qb994m"
+        "slide_Qb994m",
+        "slide_fbwGHF",
+        "slide_wxbttP",
+        "slide_LfTYnQ"
       ],
       "settings": {
         "layout": "full_bleed",

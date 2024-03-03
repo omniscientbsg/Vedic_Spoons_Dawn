@@ -5,6 +5,7 @@
       "blocks": {
         "template--15745398833291__d959a4f7-55a9-43a6-ad47-60c68b461c26-slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/2.png",
             "heading": "You Are What You Eat!",
@@ -23,19 +24,19 @@
         },
         "slide_Qb994m": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/vs1.png",
+            "heading": "Pure Royalty in             Every Bite",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Experience pure decadence in every all-natural mithai.",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
         }

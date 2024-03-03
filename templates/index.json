@@ -56,7 +56,7 @@
             "text_alignment": "left",
             "image_overlay_opacity": 20,
             "color_scheme": "accent-1",
-            "text_alignment_mobile": "left"
+            "text_alignment_mobile": "center"
           }
         }
       },

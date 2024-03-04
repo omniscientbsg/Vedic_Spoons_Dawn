@@ -16,42 +16,21 @@
           "settings": {
           }
         },
-        "buttons": {
-          "type": "buttons",
+        "bird_pickup_delivery_app_block_Wn8AGa": {
+          "type": "shopify:\/\/apps\/bird-pickup-delivery\/blocks\/app-block\/6e8f5020-fc3a-4acd-a31a-fb627c0270cf",
           "settings": {
           }
         },
-        "local_delivery_pickup_se_cart_block_Myf7pn": {
-          "type": "shopify:\/\/apps\/local-delivery-pickup-se\/blocks\/cart-block\/2eb39888-20d1-47c4-960f-ad05f2e225b3",
+        "buttons": {
+          "type": "buttons",
           "settings": {
-            "lmd_base_color": "#868686",
-            "lmd_slot_text_color": "#000000",
-            "lmd_slot_icon_color": "rgba(0,0,0,0)",
-            "lmd_btn_color": "#000000",
-            "lmd_text_color": "#ffffff",
-            "lmd_calender_color": "#ffffff",
-            "lmd_calender_text_color": "#000000",
-            "lmd_calender_select_color": "#000000",
-            "lmd_calender_text_select_color": "#ffffff",
-            "sclmd_drop_shadow": false,
-            "lmd_calender_drop_shadow_color": "#999999",
-            "lmd_enable_local": true,
-            "local_delivery_method": "Local Delivery",
-            "lmd_enable_pickup": true,
-            "store_pickup_method": "Store Pickup",
-            "lmd_enable_shipping": true,
-            "standard_shipping_method": "Standard Shippping",
-            "sclmd_express_checkout": false,
-            "sclmd_target_id": "",
-            "sclmd_fill_pickup_address": true,
-            "sclmd_location_pop_up": false
           }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons",
-        "local_delivery_pickup_se_cart_block_Myf7pn"
+        "bird_pickup_delivery_app_block_Wn8AGa",
+        "buttons"
       ],
       "settings": {
         "color_scheme": "",

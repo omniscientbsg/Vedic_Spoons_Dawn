@@ -3,7 +3,7 @@
     "checkout": {
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "one": "Your Order Cannot Be Shipped To Your Selected Address As Delicate Low Shelf Life Products You Have Chossen Might Not Be Available For Your Shipping Zone."
+          "one": "One or more products chosen are of delicate & low shelf life Products, which are meant for only within Mumbai pincodes. If you are outside Mumbai then you need to remove those products & proceed."
         }
       }
     }

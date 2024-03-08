@@ -59,6 +59,15 @@
           "settings": {
           }
         },
+        "collapsible_tab_UpG9Ct": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Details",
+            "icon": "plant",
+            "content": "",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -81,6 +90,7 @@
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
         "description",
+        "collapsible_tab_UpG9Ct",
         "share",
         "custom_liquid_NYf3UY"
       ],

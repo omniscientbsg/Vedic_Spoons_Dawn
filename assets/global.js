@@ -959,9 +959,9 @@ class VariantSelects extends HTMLElement {
     this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
-    this.updateVariantStatuses();
+    this.updateVariantStatuses();  
 
-    if (!this.currentVariant) {
+    if (!this.current) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
@@ -970,6 +970,9 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+
+      console.log("variant has change")
+
     }
   }
 

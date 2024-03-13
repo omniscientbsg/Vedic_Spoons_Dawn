@@ -88,8 +88,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
+        "padding_top": 32,
+        "padding_bottom": 48
       }
     },
     "slideshow_wdHaYR": {

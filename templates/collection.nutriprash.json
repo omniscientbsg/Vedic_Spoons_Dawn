@@ -148,12 +148,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_xYLXz8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amla_oil_1024x1024_1d98311a-e8bc-4903-9f9d-38529aa7cd5a.webp",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_FGmpXn",
         "slide_3iqCz7",
-        "slide_3jPdxB"
+        "slide_3jPdxB",
+        "slide_xYLXz8"
       ],
       "settings": {
         "layout": "full_bleed",

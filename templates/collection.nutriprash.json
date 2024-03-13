@@ -51,6 +51,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": true,
@@ -72,8 +73,8 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "enable_filtering": true,
-        "filter_type": "vertical",
+        "enable_filtering": false,
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "1",
         "padding_top": 36,

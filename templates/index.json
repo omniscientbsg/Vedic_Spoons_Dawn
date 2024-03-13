@@ -24,12 +24,11 @@
         },
         "slide_Qb994m": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/vs1.png",
             "heading": "Pure Royalty in             Every Bite",
             "heading_size": "h1",
-            "subheading": "Experience pure decadence in every all-natural mithai.",
+            "subheading": "Experience pure delicacy in all-natural mithai.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -44,7 +43,6 @@
         "slide_fbwGHF": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-1_d1504446-c42a-4625-8f17-6b25f4585b57.png",
             "heading": "Wholesome Elegance",
             "heading_size": "h1",
             "subheading": "Savor the essence of tradition in every bite of our Indian mithai, where wholesome ingredients intertwine with elegant flavors, creating a symphony of wholesome elegance for your palate.",

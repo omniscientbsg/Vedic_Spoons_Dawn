@@ -280,6 +280,60 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "multicolumn_qbRymn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pwd7Ft": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EFFICASY_CHART_PNG.png",
+            "title": "<strong>Twice More Effective<\/strong>",
+            "text": "<p>Delivered Fresh within 15 Days of Manufacturing<\/p><p>Has 2 times more tannin as compared to a 180 day product.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aBGWcq": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bNN7WC": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pwd7Ft",
+        "column_aBGWcq",
+        "column_bNN7WC"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_fXq6k7": {
       "type": "image-with-text",
       "blocks": {
@@ -334,6 +388,7 @@
     "related-products",
     "rich_text_9iWKXP",
     "slideshow_KGdzRN",
+    "multicolumn_qbRymn",
     "image_with_text_fXq6k7"
   ]
 }

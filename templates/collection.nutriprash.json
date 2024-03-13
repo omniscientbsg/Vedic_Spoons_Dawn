@@ -14,7 +14,7 @@
           "type": "text",
           "settings": {
             "text": "We believe \" The food manufacturer is more important to your children health than the pediatrician\"",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "buttons_JMmrVN": {
@@ -40,13 +40,13 @@
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "",
-        "image_behavior": "ambient",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "banner": {
@@ -73,8 +73,8 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "enable_filtering": false,
-        "filter_type": "horizontal",
+        "enable_filtering": true,
+        "filter_type": "vertical",
         "enable_sorting": true,
         "columns_mobile": "1",
         "padding_top": 36,

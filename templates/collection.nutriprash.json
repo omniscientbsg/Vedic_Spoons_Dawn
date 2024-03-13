@@ -247,7 +247,7 @@
         "heading_qtqYd6": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>Nutriprash Benefits<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -273,6 +273,7 @@
         "button_kVhbDt"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/text_with_image_nutriprash_banner_1000x10000.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

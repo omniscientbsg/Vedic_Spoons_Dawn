@@ -216,6 +216,62 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_JAdiHe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_R4FjNr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EFFICASY_CHART_PNG.png",
+            "title": "<strong>Twice More Effective<\/strong>",
+            "text": "<p>Delivered Fresh within 15 Days of Manufacturing<\/p><p>Has 2 times more tannin as compared to a 180 day product.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_txwLWt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fresh-amla-1677563264-6781593.jpg",
+            "title": "<strong>Why is fresh Amla better than powdered Amla?<\/strong>",
+            "text": "<p>Amla holds the highest amounts of Vitamin C, almost three times as an orange. It is easy to lose these vitamins from dry amla to oxidization. But with our way of using fresh amla, we ensure that you avail all its health benefits.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bmykec": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no_preservatives_jpeg.jpg",
+            "title": "<strong>Free From Preservatives<\/strong>",
+            "text": "<p>Preservatives hinder absorption of vitamin B causing a weak nervous system.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_R4FjNr",
+        "column_txwLWt",
+        "column_bmykec"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -223,6 +279,7 @@
     "rich_text_xETAkU",
     "slideshow_wdHaYR",
     "banner",
-    "product-grid"
+    "product-grid",
+    "multicolumn_JAdiHe"
   ]
 }

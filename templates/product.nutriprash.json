@@ -279,12 +279,59 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "image_with_text_fXq6k7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ztmtBk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Nutriprash Benefits<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_MDT7Nz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have identified age-old proven Ayurvedic recipes, researched why they lost their values over time. We have then identified better ingredients to make those products tastier & healthier. We are avoiding traditional mediums of Retail selling as the product does not remain fresh & without preservatives. Instead, we aim to make our products as per order & deliver directly to you so that you always receive Exclusive High Quality Freshly made goodies.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_cJzcGE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ztmtBk",
+        "text_MDT7Nz",
+        "button_cJzcGE"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "rich_text_9iWKXP",
-    "slideshow_KGdzRN"
+    "slideshow_KGdzRN",
+    "image_with_text_fXq6k7"
   ]
 }

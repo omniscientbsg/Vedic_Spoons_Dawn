@@ -195,7 +195,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Honey.jpg",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "",
             "link": "",

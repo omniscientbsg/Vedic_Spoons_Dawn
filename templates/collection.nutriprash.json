@@ -49,6 +49,49 @@
         "show_text_below": true
       }
     },
+    "rich_text_xETAkU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_p3gJKD": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_e8cyLr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have identified age-old proven Ayurvedic recipes, researched why they lost their values over time. We have then identified better ingredients to make those products tastier & healthier. We are avoiding traditional mediums of Retail selling as the product does not remain fresh & without preservatives. Instead, we aim to make our products as per order & deliver directly to you so that you always receive Exclusive High Quality Freshly made goodies.<\/p>"
+          }
+        },
+        "button_mBzzwt": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_p3gJKD",
+        "text_e8cyLr",
+        "button_mBzzwt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -80,54 +123,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_xETAkU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_p3gJKD": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_e8cyLr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We have identified age-old proven Ayurvedic recipes, researched why they lost their values over time. We have then identified better ingredients to make those products tastier & healthier. We are avoiding traditional mediums of Retail selling as the product does not remain fresh & without preservatives. Instead, we aim to make our products as per order & deliver directly to you so that you always receive Exclusive High Quality Freshly made goodies.<\/p>"
-          }
-        },
-        "button_mBzzwt": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_p3gJKD",
-        "text_e8cyLr",
-        "button_mBzzwt"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "image_banner_gkQwxt",
+    "rich_text_xETAkU",
     "banner",
-    "product-grid",
-    "rich_text_xETAkU"
+    "product-grid"
   ]
 }

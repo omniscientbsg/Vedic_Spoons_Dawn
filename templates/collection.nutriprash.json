@@ -251,13 +251,6 @@
             "heading_size": "h1"
           }
         },
-        "text_i8kxKt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nutriprash is an Ayurvedic blend of Chyawanprash, Drakshavaleha & Bhrama Rasayana, which are the greatest boons of Ayurveda to Mankind. Nutriprash has all fruits, spices & herbs combined in precise proportion to a synergistic effect. This whole is more powerful than the sum of its parts. Its pleasant natural aromatic aroma & taste makes it palatable for all age groups ~ from Children to Elderly people. The Draksh(Raisins) add a cooling effect, thus making it suitable to be had even during the summer months. It is freshly prepared & delivered without the use of any preservatives. It contains the goodness of Amla, Almonds, Raisins, Saffron, Honey and a lot of other healthy natural ingredients which make it delicious.<\/p>",
-            "text_style": "body"
-          }
-        },
         "button_kVhbDt": {
           "type": "button",
           "settings": {
@@ -265,12 +258,19 @@
             "button_link": "",
             "button_style_secondary": false
           }
+        },
+        "text_i8kxKt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nutriprash is an Ayurvedic blend of Chyawanprash, Drakshavaleha & Bhrama Rasayana, which are the greatest boons of Ayurveda to Mankind. Nutriprash has all fruits, spices & herbs combined in precise proportion to a synergistic effect. This whole is more powerful than the sum of its parts. Its pleasant natural aromatic aroma & taste makes it palatable for all age groups ~ from Children to Elderly people. The Draksh(Raisins) add a cooling effect, thus making it suitable to be had even during the summer months. It is freshly prepared & delivered without the use of any preservatives. It contains the goodness of Amla, Almonds, Raisins, Saffron, Honey and a lot of other healthy natural ingredients which make it delicious.<\/p>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "heading_qtqYd6",
-        "text_i8kxKt",
-        "button_kVhbDt"
+        "button_kVhbDt",
+        "text_i8kxKt"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/text_with_image_nutriprash_banner_1000x10000.png",

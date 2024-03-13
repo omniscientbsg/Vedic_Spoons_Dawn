@@ -92,6 +92,7 @@
         },
         "template--15745398833291__f58fae1e-eeb4-416d-aa11-d89175bc8235-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections",
@@ -223,6 +224,7 @@
       "block_order": [
         "text_df6dth"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -286,7 +288,7 @@
         "column_VkCMF6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EFFICASY_CHART_PNG.png",
+            "image": "shopify:\/\/shop_images\/efficacy_chart_jpeg_9938d2eb-28ac-4d4a-af8d-96d9e05b5a94.jpg",
             "title": "<strong>Twice More Effective<\/strong>",
             "text": "<p>Delivered Fresh within 15 Days of Manufacturing<\/p><p>Has 2 times more tannin as compared to a 180 day product.<\/p>",
             "link_label": "",

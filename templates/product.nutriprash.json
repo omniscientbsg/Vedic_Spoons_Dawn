@@ -243,12 +243,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_cAFXME": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Saffron.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_mFHUkK",
         "slide_aGWFqb",
-        "slide_aQWdnK"
+        "slide_aQWdnK",
+        "slide_cAFXME"
       ],
       "settings": {
         "layout": "full_bleed",

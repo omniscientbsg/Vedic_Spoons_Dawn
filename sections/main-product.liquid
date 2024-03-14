@@ -531,6 +531,18 @@
               {% render 'icon-with-text',
                 block: block
               %}
+                {%- when 'icon-with-text-custom' -%}
+    {% render 'icon-with-text-custom',
+      block_or_section_id: block.id,
+      icon_source: block.settings.icon_source,
+      metaobject_entry_name: block.settings.metaobject_entry_name,
+      layout: block.settings.layout,
+      icons_per_line: block.settings.icons_per_line,
+      num_columns: block.settings.num_columns,
+      icon_size: block.settings.icon_size,
+      heading_size: block.settings.heading_size                
+    %}
+              
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">

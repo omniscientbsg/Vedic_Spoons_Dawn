@@ -2039,8 +2039,97 @@
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
         }
       ]
+    },
+{
+  "type": "icon-with-text-custom",
+  "name": "Icon With Text Custom",
+  "settings": [
+    {
+      "type": "select",
+      "id": "icon_source",
+      "label": "Icon Source",
+      "options": [
+        {
+          "value": "product_metafield",
+          "label": "Product Metafield"
+        },
+        {
+          "value": "metaobject_entry",
+          "label": "Metaobject Entry"
+        }
+      ],
+      "default": "product_metafield"
+    },
+    {
+      "type": "text",
+      "id": "metaobject_entry_name",
+      "label": "Metaobject Entry Name"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "horizontal",
+          "label": "t:sections.main-product.blocks.icon_with_text.settings.layout.options__1.label"
+        },
+        {
+          "value": "vertical",
+          "label": "t:sections.main-product.blocks.icon_with_text.settings.layout.options__2.label"
+        }
+      ],
+      "default": "horizontal",
+      "label": "t:sections.main-product.blocks.icon_with_text.settings.layout.label"
+    },
+    {
+      "type": "range",
+      "id": "icons_per_line",
+      "label": "Icons per Line (horizontal layout)",
+      "default": 3,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "type": "range",
+      "id": "num_columns",
+      "label": "Number of Columns (vertical layout)",
+      "default": 1,
+      "min": 1,
+      "max": 3
+    },  
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon Size",
+      "min": 1,
+      "max": 10,
+      "step": 0.5,
+      "default": 4,
+      "unit": "rem"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading Size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        }
+      ],
+      "default": "h4"
     }
-  ],
+  ]
+}
+],
   "settings": [
     {
       "type": "checkbox",

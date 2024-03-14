@@ -64,7 +64,7 @@
             "icon_2": "return",
             "heading_2": "{{ block.repeater.name.value }}",
             "icon_3": "truck",
-            "heading_3": "Heading"
+            "heading_3": ""
           }
         },
         "description": {

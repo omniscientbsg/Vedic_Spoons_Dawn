@@ -440,12 +440,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_BPt7ta": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slider-2_bd949809-8354-40b2-9590-d1d07a611f0c.jpg",
+            "heading": "Good For All Seasons",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_6pHDzF",
         "slide_Cz4yj8",
-        "slide_tRme8d"
+        "slide_tRme8d",
+        "slide_BPt7ta"
       ],
       "settings": {
         "layout": "full_bleed",

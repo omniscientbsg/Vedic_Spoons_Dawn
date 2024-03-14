@@ -47,6 +47,15 @@
             "product": "{{ product }}"
           }
         },
+        "collapsible_tab_UpG9Ct": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Details",
+            "icon": "plant",
+            "content": "",
+            "page": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -57,15 +66,6 @@
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "collapsible_tab_UpG9Ct": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Details",
-            "icon": "plant",
-            "content": "",
-            "page": ""
           }
         },
         "share": {
@@ -88,9 +88,9 @@
         "variant_picker",
         "quantity_selector",
         "subscriptions_app_block_jPFbQn",
+        "collapsible_tab_UpG9Ct",
         "buy_buttons",
         "description",
-        "collapsible_tab_UpG9Ct",
         "share",
         "custom_liquid_NYf3UY"
       ],

@@ -5,6 +5,9 @@
         "shipping_method_not_available_generic": {
           "one": "One or more products chosen are of delicate & low shelf life Products, which are meant for only within Mumbai pincodes. If you are outside Mumbai then you need to remove those products & proceed."
         }
+      },
+      "general": {
+        "page_title": "Checkout"
       }
     }
   },

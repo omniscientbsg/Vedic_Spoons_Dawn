@@ -64,7 +64,7 @@
           "settings": {
             "heading": "Details",
             "icon": "plant",
-            "content": "<p>Raw Text<\/p>",
+            "content": "",
             "page": ""
           }
         },

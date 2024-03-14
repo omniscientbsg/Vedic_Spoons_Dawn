@@ -978,7 +978,7 @@ class VariantSelects extends HTMLElement {
 updateVariantDetails() {
 
   console.log("Variant Has Changed");
-      console.log(this.currentVariant.);
+      console.log(this.currentVariant);
 
       
 }

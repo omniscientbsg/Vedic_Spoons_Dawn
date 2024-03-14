@@ -983,7 +983,7 @@ updateVariantDetails(){
       console.log(allVariantMetaFieldData);
 
       const VariantDetailsTextElement = document.querySelector('#variant-details');
-      VariantDetailsTextElement.innerHTML = this.currentVariant.id;
+      VariantDetailsTextElement.innerHTML = allVariantMetaFieldData[this.currentVariant.id];
 }
 
   updateOptions() {

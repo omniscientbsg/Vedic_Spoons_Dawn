@@ -52,7 +52,7 @@
           "repeater": "{{ product.metafields.custom.icons.value }}",
           "settings": {
             "icon_source": "product_metafield",
-            "metaobject_entry_name": "{{ block.repeater.name.value }}",
+            "metaobject_entry_name": "{{ block.repeater.name.value }}{{ block.repeater.text | metafield_text }}",
             "layout": "horizontal",
             "icons_per_line": 3,
             "num_columns": 1,

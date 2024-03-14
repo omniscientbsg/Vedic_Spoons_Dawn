@@ -974,13 +974,6 @@ class VariantSelects extends HTMLElement {
     }
   }
 
-updateVariantDetails(){
-
-console.log(Variant has changed);
-console.log(this.currentVariant);
-  
-}
-
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select, fieldset'), (element) => {
       if (element.tagName === 'SELECT') {

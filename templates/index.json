@@ -421,7 +421,6 @@
         "slide_EReEmk",
         "slide_Upy9M9"
       ],
-      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -471,6 +470,13 @@
           "settings": {
             "collection": "platters"
           }
+        },
+        "featured_collection_aiYQWY": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -479,7 +485,8 @@
         "featured_collection_VpPRdb",
         "featured_collection_JcQWpq",
         "featured_collection_cURtN9",
-        "featured_collection_4Vidkh"
+        "featured_collection_4Vidkh",
+        "featured_collection_aiYQWY"
       ],
       "settings": {
         "title": "Collections",

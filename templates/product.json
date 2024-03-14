@@ -51,9 +51,10 @@
         },
         "icon_with_text_custom_hMMXbc": {
           "type": "icon-with-text-custom",
+          "repeater": "{{ product.metafields.custom.icons.value }}",
           "settings": {
             "icon_source": "product_metafield",
-            "metaobject_entry_name": "",
+            "metaobject_entry_name": "{{ block.repeater.name.value }}",
             "layout": "horizontal",
             "icons_per_line": 3,
             "num_columns": 1,

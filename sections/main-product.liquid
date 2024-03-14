@@ -199,7 +199,7 @@
                     {% render 'icon-caret' %}
                   </summary>
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                        <div id="variant-details">Raw Text</div>
+                        <div id="variant-details">{{ product.selected_or_first_available_variant.metafields.custom.variant_details }}</div>
                     {{ block.settings.content }}
                     {{ block.settings.page.content }}
                   </div>
@@ -667,6 +667,7 @@
   </script>
   </div>
 </section>
+
 
 {% schema %}
 {

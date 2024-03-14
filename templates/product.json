@@ -49,6 +49,18 @@
             "show_gift_card_recipient": false
           }
         },
+        "icon_with_text_custom_hMMXbc": {
+          "type": "icon-with-text-custom",
+          "settings": {
+            "icon_source": "product_metafield",
+            "metaobject_entry_name": "",
+            "layout": "horizontal",
+            "icons_per_line": 3,
+            "num_columns": 1,
+            "icon_size": 4,
+            "heading_size": "h4"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -74,6 +86,7 @@
         "variant_picker",
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
+        "icon_with_text_custom_hMMXbc",
         "description",
         "share",
         "custom_liquid_NYf3UY"

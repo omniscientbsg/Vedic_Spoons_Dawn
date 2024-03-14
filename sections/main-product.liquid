@@ -671,6 +671,7 @@
 <script id="variant_metafield_data"type="application/json">
 {% for variant in product.variants %}
 {% assign metafield_content=variant.metafield.custom.variant_details %}
+"{{ variant.id }}" : "{{ metafield_content }}" {% unless forloop.last %}, {% endunless %}
 {% endfor %}
 </script>
 

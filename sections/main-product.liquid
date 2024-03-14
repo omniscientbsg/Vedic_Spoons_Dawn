@@ -668,6 +668,11 @@
   </div>
 </section>
 
+<script id="variant_metafield_data"type="application/json">
+{% for variant in product.variants %}
+{% assign metafield_content=variant.metafield.custom.variant_details %}
+{% endfor %}
+</script>
 
 {% schema %}
 {

@@ -161,6 +161,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "5166220990996846296": {
+        "type": "shopify:\/\/apps\/ga-addons-gift-wrap-add-ons\/blocks\/app-embeded\/5999adcd-8395-46e2-b546-af1a82aaaf25",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {

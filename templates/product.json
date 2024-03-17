@@ -42,16 +42,16 @@
             "product": "{{ product }}"
           }
         },
-        "ga_addons_gift_wrap_add_ons_goodpa_VKtxwg": {
-          "type": "shopify:\/\/apps\/ga-addons-gift-wrap-add-ons\/blocks\/goodpa\/5999adcd-8395-46e2-b546-af1a82aaaf25",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "ga_addons_gift_wrap_add_ons_goodpa_VKtxwg": {
+          "type": "shopify:\/\/apps\/ga-addons-gift-wrap-add-ons\/blocks\/goodpa\/5999adcd-8395-46e2-b546-af1a82aaaf25",
+          "settings": {
           }
         },
         "description": {
@@ -78,8 +78,8 @@
         "price",
         "variant_picker",
         "subscriptions_app_block_jPFbQn",
-        "ga_addons_gift_wrap_add_ons_goodpa_VKtxwg",
         "buy_buttons",
+        "ga_addons_gift_wrap_add_ons_goodpa_VKtxwg",
         "description",
         "share",
         "custom_liquid_NYf3UY"

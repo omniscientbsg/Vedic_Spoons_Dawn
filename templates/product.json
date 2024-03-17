@@ -65,19 +65,6 @@
           "settings": {
             "custom_liquid": "{% unless product == empty %}\n  <script type=\"application\/json\" id=\"ProductJson-{{ section.id }}\">\n    {{ product | json }}\n  <\/script>\n{% endunless %}\n​"
           }
-        },
-        "icon_with_text_KMqnDC": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "heart",
-            "image_1": "{{ product.metafields.custom.icon.value }}",
-            "heading_1": "{{ product.metafields.custom.icon_text.value }}",
-            "icon_2": "return",
-            "heading_2": "Heading",
-            "icon_3": "truck",
-            "heading_3": "Heading"
-          }
         }
       },
       "block_order": [
@@ -89,8 +76,7 @@
         "buy_buttons",
         "description",
         "share",
-        "custom_liquid_NYf3UY",
-        "icon_with_text_KMqnDC"
+        "custom_liquid_NYf3UY"
       ],
       "settings": {
         "enable_sticky_info": true,

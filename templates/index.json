@@ -39,29 +39,11 @@
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_fbwGHF": {
-          "type": "slide",
-          "settings": {
-            "heading": "Wholesome Elegance",
-            "heading_size": "h1",
-            "subheading": "Savor the essence of tradition in every bite of our Indian mithai, where wholesome ingredients intertwine with elegant flavors, creating a symphony of wholesome elegance for your palate.",
-            "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "accent-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "template--15745398833291__d959a4f7-55a9-43a6-ad47-60c68b461c26-slide-1",
-        "slide_Qb994m",
-        "slide_fbwGHF"
+        "slide_Qb994m"
       ],
       "settings": {
         "layout": "full_bleed",

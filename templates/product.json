@@ -28,6 +28,11 @@
             "swatch_shape": "circle"
           }
         },
+        "quantity_selector_f7UnJ9": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "subscriptions_app_block_jPFbQn": {
           "type": "shopify:\/\/apps\/subscriptions\/blocks\/app-block\/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
           "settings": {
@@ -77,6 +82,7 @@
         "title",
         "price",
         "variant_picker",
+        "quantity_selector_f7UnJ9",
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
         "ga_addons_gift_wrap_add_ons_goodpa_VKtxwg",

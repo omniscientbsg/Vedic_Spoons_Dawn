@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "d959a4f7-55a9-43a6-ad47-60c68b461c26": {
@@ -418,12 +427,6 @@
     "collection_list_Em7TLn": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_gVJHcE": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "syrups-without-any-artificial-essence-colour-or-preservatives"
-          }
-        },
         "featured_collection_tdEfEc": {
           "type": "featured_collection",
           "settings": {
@@ -454,6 +457,12 @@
             "collection": "platters"
           }
         },
+        "featured_collection_gVJHcE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "syrups-without-any-artificial-essence-colour-or-preservatives"
+          }
+        },
         "featured_collection_aiYQWY": {
           "type": "featured_collection",
           "disabled": true,
@@ -463,12 +472,12 @@
         }
       },
       "block_order": [
-        "featured_collection_gVJHcE",
         "featured_collection_tdEfEc",
         "featured_collection_VpPRdb",
         "featured_collection_JcQWpq",
         "featured_collection_cURtN9",
         "featured_collection_4Vidkh",
+        "featured_collection_gVJHcE",
         "featured_collection_aiYQWY"
       ],
       "settings": {
@@ -492,7 +501,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "syrups-without-any-artificial-essence-colour-or-preservatives",
+        "collection": "janmashtami",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,

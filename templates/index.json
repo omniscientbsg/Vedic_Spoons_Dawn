@@ -452,6 +452,34 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_HzDr48": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "janmashtami",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
     "collection_list_Em7TLn": {
       "type": "collection-list",
       "blocks": {
@@ -563,6 +591,7 @@
     "multicolumn_w6VJKL",
     "slideshow_hEEFea",
     "featured_collection",
+    "featured_collection_HzDr48",
     "collection_list_Em7TLn",
     "video_JBXbMJ",
     "featured_blog_rcbYGg"

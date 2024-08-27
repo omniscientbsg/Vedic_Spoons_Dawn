@@ -427,12 +427,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "This Festive Season",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "janmashtami",
+        "collection": "ganesh-chaturthi",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,

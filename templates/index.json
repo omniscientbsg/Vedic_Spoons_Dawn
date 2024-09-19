@@ -426,6 +426,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "This Festive Season",
         "heading_size": "h2",
@@ -454,6 +455,7 @@
     },
     "featured_collection_HzDr48": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",

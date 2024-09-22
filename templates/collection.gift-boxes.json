@@ -18,16 +18,10 @@
         "color_scheme": "background-1"
       }
     },
-    "video_dT93iz": {
-      "type": "video",
+    "custom_liquid_4JhKp6": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/Brown Box 12 Cavity (30 Sec).mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": true,
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/63ffd86740934c5784dd3202ddba2a74.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/63ffd86740934c5784dd3202ddba2a74.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -59,7 +53,7 @@
   },
   "order": [
     "banner",
-    "video_dT93iz",
+    "custom_liquid_4JhKp6",
     "product-grid"
   ]
 }

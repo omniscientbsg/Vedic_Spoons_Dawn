@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -9,20 +18,19 @@
         "color_scheme": "background-1"
       }
     },
-    "image_banner_iyPy9R": {
-      "type": "image-banner",
+    "video_dT93iz": {
+      "type": "video",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Artboard_1.png",
-        "image_overlay_opacity": 10,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Brown Box 12 Cavity (30 Sec).mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-grid": {
@@ -51,7 +59,7 @@
   },
   "order": [
     "banner",
-    "image_banner_iyPy9R",
+    "video_dT93iz",
     "product-grid"
   ]
 }

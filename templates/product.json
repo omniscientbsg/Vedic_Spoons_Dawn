@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -16,16 +25,16 @@
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "dropdown",
             "swatch_shape": "circle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
           }
         },
         "quantity_selector_f7UnJ9": {
@@ -34,7 +43,7 @@
           }
         },
         "subscriptions_app_block_jPFbQn": {
-          "type": "shopify:\/\/apps\/subscriptions\/blocks\/app-block\/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
           "settings": {
             "color_text_title": "#6d7175",
             "color_text_body": "#6d7175",
@@ -55,7 +64,7 @@
           }
         },
         "ga_addons_gift_wrap_add_ons_goodpa_VKtxwg": {
-          "type": "shopify:\/\/apps\/ga-addons-gift-wrap-add-ons\/blocks\/goodpa\/5999adcd-8395-46e2-b546-af1a82aaaf25",
+          "type": "shopify://apps/ga-addons-gift-wrap-add-ons/blocks/goodpa/5999adcd-8395-46e2-b546-af1a82aaaf25",
           "settings": {
           }
         },
@@ -73,15 +82,15 @@
         "custom_liquid_NYf3UY": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product == empty %}\n  <script type=\"application\/json\" id=\"ProductJson-{{ section.id }}\">\n    {{ product | json }}\n  <\/script>\n{% endunless %}\n​"
+            "custom_liquid": "{% unless product == empty %}\n  <script type=\"application/json\" id=\"ProductJson-{{ section.id }}\">\n    {{ product | json }}\n  </script>\n{% endunless %}\n​"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "price",
         "variant_picker",
+        "price",
         "quantity_selector_f7UnJ9",
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",

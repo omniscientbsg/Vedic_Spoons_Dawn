@@ -32,16 +32,6 @@
             "swatch_shape": "circle"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "quantity_selector_f7UnJ9": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "subscriptions_app_block_jPFbQn": {
           "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
           "settings": {
@@ -63,8 +53,13 @@
             "show_gift_card_recipient": false
           }
         },
-        "ga_addons_gift_wrap_add_ons_goodpa_VKtxwg": {
-          "type": "shopify://apps/ga-addons-gift-wrap-add-ons/blocks/goodpa/5999adcd-8395-46e2-b546-af1a82aaaf25",
+        "quantity_selector_f7UnJ9": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
@@ -90,11 +85,10 @@
         "vendor",
         "title",
         "variant_picker",
-        "price",
-        "quantity_selector_f7UnJ9",
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
-        "ga_addons_gift_wrap_add_ons_goodpa_VKtxwg",
+        "quantity_selector_f7UnJ9",
+        "price",
         "description",
         "share",
         "custom_liquid_NYf3UY"

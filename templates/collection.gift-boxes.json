@@ -69,13 +69,20 @@
           "settings": {
             "collection": "9-pc-box"
           }
+        },
+        "featured_collection_p4G73b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "24-pc-box"
+          }
         }
       },
       "block_order": [
         "featured_collection_DVCUwd",
         "featured_collection_Rdpgeb",
         "featured_collection_MdppmK",
-        "featured_collection_GTEGQq"
+        "featured_collection_GTEGQq",
+        "featured_collection_p4G73b"
       ],
       "settings": {
         "title": "Collections",

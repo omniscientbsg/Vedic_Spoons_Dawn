@@ -58,6 +58,12 @@
             "collection": "15-pc-box"
           }
         },
+        "featured_collection_MdppmK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "12-pc-box"
+          }
+        },
         "featured_collection_GTEGQq": {
           "type": "featured_collection",
           "settings": {
@@ -68,6 +74,7 @@
       "block_order": [
         "featured_collection_DVCUwd",
         "featured_collection_Rdpgeb",
+        "featured_collection_MdppmK",
         "featured_collection_GTEGQq"
       ],
       "settings": {

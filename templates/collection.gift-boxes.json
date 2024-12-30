@@ -71,6 +71,12 @@
           "settings": {
             "collection": "6-pc-box"
           }
+        },
+        "featured_collection_GtF9Pn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "4-pc-box"
+          }
         }
       },
       "block_order": [
@@ -79,7 +85,8 @@
         "featured_collection_Rdpgeb",
         "featured_collection_MdppmK",
         "featured_collection_GTEGQq",
-        "featured_collection_w9HjFV"
+        "featured_collection_w9HjFV",
+        "featured_collection_GtF9Pn"
       ],
       "settings": {
         "title": "Collections",

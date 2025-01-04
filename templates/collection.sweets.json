@@ -67,6 +67,12 @@
     "collection_list_xHfgQp": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_xPX6yC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "24-pc-box"
+          }
+        },
         "featured_collection_DVCUwd": {
           "type": "featured_collection",
           "settings": {
@@ -79,17 +85,39 @@
             "collection": "15-pc-box"
           }
         },
+        "featured_collection_cHrkgd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "12-pc-box"
+          }
+        },
         "featured_collection_GTEGQq": {
           "type": "featured_collection",
           "settings": {
             "collection": "9-pc-box"
           }
+        },
+        "featured_collection_LPFKhb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "6-pc-box"
+          }
+        },
+        "featured_collection_kRkNXF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "4-pc-box"
+          }
         }
       },
       "block_order": [
+        "featured_collection_xPX6yC",
         "featured_collection_DVCUwd",
         "featured_collection_Rdpgeb",
-        "featured_collection_GTEGQq"
+        "featured_collection_cHrkgd",
+        "featured_collection_GTEGQq",
+        "featured_collection_LPFKhb",
+        "featured_collection_kRkNXF"
       ],
       "settings": {
         "title": "Collections",

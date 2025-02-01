@@ -92,6 +92,49 @@
               {%- endif -%}
             </span>
             {%- render 'loading-spinner' -%}
+            {% assign minQty = 1 %}
+{% assign tagNarration = "" %}
+
+{% for tag in product.tags %}
+  {% if tag contains "Min-" %}
+    {% assign tagParts = tag | split: "-" %}
+    {% assign minQty = tagParts[1] | plus: 0 %}
+    {% assign tagNarration = tag %}
+  {% endif %}
+{% endfor %}
+
+<!-- Display Tag Narration Above Add to Cart -->
+{% if minQty > 1 %}
+  <p id="minQtyNotice" style="font-weight:bold; color:red; margin-bottom: 10px;">
+    {{ tagNarration }}
+  </p>
+{% endif %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let quantityInput = document.querySelector('input[name="quantity"]');
+    let addToCartButton = document.querySelector('#ProductSubmitButton-{{ section_id }}');
+
+    let minQty = {{ minQty }}; // Get Minimum Quantity from Liquid
+
+    if (quantityInput && addToCartButton) {
+        // Set the minimum quantity on page load
+        quantityInput.value = minQty;
+        quantityInput.setAttribute("min", minQty);
+
+        quantityInput.addEventListener("change", function() {
+            if (parseInt(quantityInput.value) < minQty) {
+                addToCartButton.disabled = true;
+                addToCartButton.innerText = "Minimum Order: " + minQty;
+            } else {
+                addToCartButton.disabled = false;
+                addToCartButton.innerText = "{{ 'products.product.add_to_cart' | t }}";
+            }
+        });
+    }
+});
+</script>
+
           </button>
           {%- if show_dynamic_checkout -%}
             {{ form | payment_button }}

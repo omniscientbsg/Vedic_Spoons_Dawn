@@ -8,6 +8,7 @@ this.rebuildOptions();
 
 // gather a list of valid combinations of options, check to see if the input passed to it matches in a chain of valid options.
 function validCombo(inputValue, optionLevel) {
+  console.log(productJson.length)
   for(let i = 0; i < productJson.length; i++) {
     if(optionLevel == 1){
       if (productJson[i].option1 == selectedOptions[0] && productJson[i].option2 == inputValue) {  return true; }

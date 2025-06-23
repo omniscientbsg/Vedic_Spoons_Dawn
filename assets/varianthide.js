@@ -1,4 +1,5 @@
 const variantSelects = (document.querySelector('variant-selects')) ? document.querySelector('variant-selects') : document.querySelector('variant-radios');
+console.log(variantSelects)
 const pickerType = (variantSelects.querySelectorAll('fieldset').length > 0) ? 'radios' : 'selects';
 const fieldsets = (pickerType == 'radios') ? Array.from(variantSelects.querySelectorAll('fieldset')) : Array.from(variantSelects.querySelectorAll('.product-form__input--dropdown'));
 const productJson = JSON.parse(variantSelects.querySelector('[type="application/json"]').textContent);

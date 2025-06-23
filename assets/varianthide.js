@@ -47,7 +47,7 @@ function rebuildOptions() {
     for (let optionLevel = 1, fieldsetsLength = fieldsets.length, change = false; optionLevel < fieldsetsLength && !change; optionLevel++) {
         if(pickerType == 'radios'){
         if(fieldsets[optionLevel].querySelector('input:checked').disabled === true) {
-            change = (fieldsets[optionLevel].querySelector('input:not(:disabled)').checked = true);
+            change = (fieldsets[optionLevel].querySelector('input:not([disabled])').checked = true);
         }
         } else {
         if(fieldsets[optionLevel].querySelector('option:checked').disabled === true) {
